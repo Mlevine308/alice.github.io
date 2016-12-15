@@ -1,0 +1,211 @@
+/* CSS Global */
+
+
+}
+body {
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+container div {
+    width: 960px;
+    text-align: center;
+}
+header div h1 a {
+    background-color: black;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+.container {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.column {
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.row {
+    overflow: hidden;
+}
+.one-whole {
+    width: 940px;
+}
+.three-quarters {
+    width: 700px;
+}
+.one-quarter {
+    width: 240px;
+}
+.one-half {
+    width: 460px;
+}
+.two-thirds {
+    width: 620px;
+}
+.one-third {
+    width: 300px;
+}
+.one-sixth {
+    width: 140px;
+}
+.alpha {
+    margin-left: 0;
+}
+.omega {
+    margin-right: 0;
+}
+nav ul li {
+    display: inline-block;
+}
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+/* button hover */
+.footer a:hover {
+    color: #B45737;
+    /* burnt orange */
+}
+.footer a {
+    padding: 0px 15px;
+    -webkit-transition: color 0.3s ease 0s;
+    -moz-transition: color 0.3s ease-out;
+    -ms-transition: color 0.3s ease-out;
+    -o-transition: color 0.3s ease-out;
+    transition: color 0.3s ease-in-out;
+}
+
+/* aside */
+aside {
+    font-size: 12px;
+}
+aside img {
+    float: left;
+    margin: 25px 0 30px 12px;
+    padding-right: 18px;
+}
+.border {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+/* z-index */
+.swanky {
+    font-family: 'Swanky and Moo Moo';
+    color: orange;
+    font-size: 45px;
+    padding-left: 90px;
+}
+section div div {
+    z-index: -100;
+    position: relative;
+}
+
+/* Header */
+.active a {
+    color: #B45737;
+    /* burnt ornage */
+}
+.nav a:hover {
+    color: #B45737;
+    /* burnt orange */
+}
+.nav a {
+    padding: 0px 15px;
+    -webkit-transition: color 0.3s ease 0s;
+    -moz-transition: color 0.3s ease-out;
+    -ms-transition: color 0.3s ease-out;
+    -o-transition: color 0.3s ease-out;
+    transition: color 0.3s ease-in-out;
+}
+.nav li:last-child {
+    border-right: 0 none;
+}
+.nav li {
+    float: none;
+    font-size: 18px;
+}
+.brand {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    font-size: 30px;
+    font-family: 'Swanky and Moo Moo';
+}
+.nav {
+    padding-top: 60px;
+}
+.pull-right {
+    float: right;
+}
+
+/* Image */
+.width {
+    width: 960px;
+}
+h2 span {
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.image-wrapper {
+    position: relative;
+}
+.image-wrapper h2 {
+    position: absolute;
+    padding-left: 20;
+    top: 105px;
+    padding: 10px;
+    color: #FFF;
+}
+.large {
+    font-size: 25px;
+}
+
+/*Button*/
+.button {
+    border: 2px solid 'dark grey';
+    border-radius: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: lightgrey;
+    font-size: 12px;
+}
+.box {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+}
+.center {
+    text-align: center;
+}
+
+/*About*/
+.background {
+    background-color: aliceblue;
+}
+
+/*Footer*/
+footer {
+    background-color: black;
+    color: lightgrey;
+    padding-bottom: 20px;
+}
+footer p a {
+    color: lightgray;
+}
+.footer {
+    text-align: right;
+}
